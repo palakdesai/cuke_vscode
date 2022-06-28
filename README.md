@@ -20,18 +20,28 @@ gem install solargraph -N (if required)
 ```
 
 Commands for solargraph:
-solargraph config .
+``` 
+solargraph config . 
+```
 
 Config for Cucumber (Gherkin) Full Support:
-.vscode/settings.json
+```
+.vscode/settings.json 
+```
 
 Set env variables:
-For jruby
-JRUBY_OPTS=-J-Xmx1g
-For Java: Fix for (Errno::EACCES: Permission denied - NUL)
-JAVA_OPTS: -Djdk.io.File.enableADS=true
 
+For jruby:
+```
+JRUBY_OPTS=-J-Xmx1g
+```
+
+For Java: Fix for (Errno::EACCES: Permission denied - NUL):
+```
+JAVA_OPTS: -Djdk.io.File.enableADS=true
+```
 
 For cucumber:
+```
 CUCUMBER_PUBLISH_QUIET=true
-
+```
