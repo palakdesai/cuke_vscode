@@ -28,6 +28,10 @@ Config for Cucumber (Gherkin) Full Support:
 Set env variables:
 For jruby
 JRUBY_OPTS=-J-Xmx1g
+For Java: Fix for (Errno::EACCES: Permission denied - NUL)
+JAVA_OPTS: -Djdk.io.File.enableADS=true
+
 
 For cucumber:
 CUCUMBER_PUBLISH_QUIET=true
+
